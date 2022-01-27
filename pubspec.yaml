@@ -1,0 +1,150 @@
+  name: my_way
+  description: MyWap App
+
+  # The following line prevents the package from being accidentally published to
+  # pub.dev using `pub publish`. This is preferred for private packages.
+  publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+  # The following defines the version and build number for your application.
+  # A version number is three numbers separated by dots, like 1.2.43
+  # followed by an optional build number separated by a +.
+  # Both the version and the builder number may be overridden in flutter
+  # build by specifying --build-name and --build-number, respectively.
+  # In Android, build-name is used as versionName while build-number used as versionCode.
+  # Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+  # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+  # Read more about iOS versioning at
+  # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+  version: 1.0.0+1
+
+  environment:
+    sdk: ">=2.7.0 <3.0.0"
+
+  dependencies:
+    http:
+    flutter:
+      sdk: flutter
+
+
+    # The following adds the Cupertino Icons font to your application.
+    # Use with the CupertinoIcons class for iOS style icons.
+    cupertino_icons: ^1.0.0
+    flutter_svg: ^0.19.3
+    country_icons: ^1.1.1
+    flutter_bloc: ^7.0.0
+    bloc: ^7.0.0
+    rxdart: ^0.26.0
+    equatable: ^2.0.0
+    flutter_secure_storage: ^4.1.0
+    dio: ^4.0.0
+    introduction_screen: ^2.0.0
+    smooth_star_rating: ^1.1.1
+    url_launcher: ^6.0.3 #for link
+    google_maps_flutter: ^2.0.3
+    flutter_polyline_points: ^1.0.0
+    collection: ^1.15.0
+    json_serializable: ^4.0.2
+    geolocator: ^7.1.0
+    dropdownfield: ^1.0.3
+
+
+
+
+
+
+
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+    flutter_launcher_icons: ^0.8.1
+    pedantic: ^1.11.0
+
+  # For information on the generic Dart part of this file, see the
+  # following page: https://dart.dev/tools/pub/pubspec
+
+  flutter_icons:
+    image_path: "assets/icons/appIcon.png"
+    android: true
+    ios: true
+
+  # The following section is specific to Flutter.
+  flutter:
+
+    # The following line ensures that the Material Icons font is
+    # included with your application, so that you can use the icons in
+    # the material Icons class.
+    uses-material-design: true
+
+    # To add assets to your application, add an assets section, like this:
+    assets:
+      - assets/images/
+      - assets/images/welcome/
+      - assets/icons/
+
+    # An image asset can refer to one or more resolution-specific "variants", see
+    # https://flutter.dev/assets-and-images/#resolution-aware.
+
+    # For details regarding adding assets from package dependencies, see
+    # https://flutter.dev/assets-and-images/#from-packages
+
+    # To add custom fonts to your application, add a fonts section here,
+    # in this "flutter" section. Each entry in this list should have a
+    # "family" key with the font family name, and a "fonts" key with a
+    # list giving the asset and other descriptors for the font. For
+    # example:
+    fonts:
+      - family: home
+        fonts:
+          - asset: assets/fonts/ic_home.ttf
+
+      - family: home-outline
+        fonts:
+          - asset: assets/fonts/ic_home_outline.ttf
+
+      - family: heart
+        fonts:
+          - asset: assets/fonts/ic_heart.ttf
+
+      - family: heart-outline
+        fonts:
+          - asset: assets/fonts/ic_heart-outline.ttf
+
+      - family: bookmark-outline
+        fonts:
+          - asset: assets/fonts/ic_bookmark_outline.ttf
+      - family: bookmark
+        fonts:
+          - asset: assets/fonts/ic_bookmark.ttf
+
+      - family: account
+        fonts:
+          - asset: assets/fonts/ic_account.ttf
+
+      - family: account-outline
+        fonts:
+          - asset: assets/fonts/ic_account_outline.ttf
+
+      - family: yesteryear-regular
+        fonts:
+          - asset: assets/fonts/Yesteryear-Regular.ttf
+
+      - family: museum
+        fonts:
+          - asset: assets/fonts/ic_museum.ttf
+
+      - family: direction
+        fonts:
+          - asset: assets/fonts/ic_direction.ttf
+
+      - family: location
+        fonts:
+          - asset: assets/fonts/ic_location.ttf
+
+
+    #       - asset: fonts/TrajanPro_Bold.ttf
+    #         weight: 700
+    #
+    # For details regarding fonts from package dependencies,
+    # see https://flutter.dev/custom-fonts/#from-packages
+
